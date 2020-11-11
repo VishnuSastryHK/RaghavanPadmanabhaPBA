@@ -86,6 +86,16 @@ a:hover {
     color: white;
 }
 
+ol {
+    margin-left: 0px;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
 
 /*Home Section*/
 
@@ -99,6 +109,13 @@ a:hover {
     align-items: center;
     background-color: var(--color3);
     box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#ContactCont {
+    margin-top: auto;
+    margin-bottom: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact-info-wrapper {
